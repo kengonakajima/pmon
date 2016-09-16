@@ -1,4 +1,4 @@
-all: pmon pmon2 pmon3 pmon4
+all: pmon pmon2 pmon3 pmon4 pmon5
 
 pmon: pmon.c
 	gcc pmon.c -o pmon
@@ -12,4 +12,5 @@ pmon3: pmon3.c
 pmon4: pmon4.c
 	gcc pmon4.c -o pmon4
 
-
+pmon5: pmon5.c
+	gcc pmon5.c -o pmon5
