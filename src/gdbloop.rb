@@ -17,6 +17,7 @@ print child_pid,"\n"
 
 system("rm logfile;ouch logfile")
 
-10.times {
+30.times {
+  sleep 0.2
   system("gdb #{target_program} #{parent_pid} -x #{gdb_batch_script} >> logfile")
 }
